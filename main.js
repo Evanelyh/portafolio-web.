@@ -58,11 +58,11 @@ animatedElements.forEach(el => el.classList.add('animate-in'));
 
 const animationObserver = new IntersectionObserver(
   (entries) => {
-    entries.forEach((entry, i) => {
+    entries.forEach((entry, index) => {
       if (entry.isIntersecting) {
         setTimeout(() => {
           entry.target.classList.add('visible');
-        }, i * 80);
+        }, index * 80);
         animationObserver.unobserve(entry.target);
       }
     });
