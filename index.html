@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of Evanelyh - Developer & Designer" />
+  <title>Evanelyh | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Evanelyh</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Evanelyh</h1>
+      <h2 class="hero-title">Full-Stack Developer</h2>
+      <p class="hero-description">
+        I build beautiful, performant, and accessible web experiences.
+        Passionate about clean code and elegant solutions.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-bg">
+      <div class="hero-shape shape-1"></div>
+      <div class="hero-shape shape-2"></div>
+      <div class="hero-shape shape-3"></div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <span class="scroll-arrow"></span>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-image-wrapper">
+          <div class="about-image">
+            <div class="about-avatar">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="100" cy="80" r="45" fill="var(--color-accent-light)" />
+                <ellipse cx="100" cy="185" rx="65" ry="50" fill="var(--color-accent-light)" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            Hi! I'm a passionate developer who loves crafting digital experiences
+            that are both visually compelling and technically sound. With a keen eye
+            for detail and a love for problem-solving, I bring ideas to life on the web.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring new technologies, contributing
+            to open-source projects, or enjoying a good cup of coffee while reading about
+            the latest in tech.
+          </p>
+          <div class="about-info">
+            <div class="info-item">
+              <span class="info-label">Location</span>
+              <span class="info-value">Available Worldwide</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Status</span>
+              <span class="info-value status-open">Open to Opportunities</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Let's Talk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 class="skill-category-title">Frontend</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-icon">⚛️</span>
+              <span class="skill-name">React</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🟨</span>
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🔷</span>
+              <span class="skill-name">TypeScript</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🎨</span>
+              <span class="skill-name">HTML &amp; CSS</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">Backend</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-icon">🟢</span>
+              <span class="skill-name">Node.js</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🐍</span>
+              <span class="skill-name">Python</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🗄️</span>
+              <span class="skill-name">Databases</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🔌</span>
+              <span class="skill-name">REST APIs</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">Tools &amp; DevOps</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-icon">🐙</span>
+              <span class="skill-name">Git &amp; GitHub</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🐳</span>
+              <span class="skill-name">Docker</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">☁️</span>
+              <span class="skill-name">Cloud Services</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">⚡</span>
+              <span class="skill-name">CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder" style="--bg: #6366f1"></div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">MongoDB</span>
+            </div>
+            <h3 class="project-title">Project One</h3>
+            <p class="project-description">
+              A full-stack web application with real-time features, authentication,
+              and a modern UI. Built with React and Node.js.
+            </p>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder" style="--bg: #8b5cf6"></div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">Python</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+            <h3 class="project-title">Project Two</h3>
+            <p class="project-description">
+              A data-driven platform that processes and visualizes complex datasets,
+              providing actionable insights through interactive dashboards.
+            </p>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder" style="--bg: #ec4899"></div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">Tailwind</span>
+              <span class="tag">API</span>
+            </div>
+            <h3 class="project-title">Project Three</h3>
+            <p class="project-description">
+              A modern web application leveraging Next.js for server-side rendering
+              and Tailwind CSS for a polished, responsive design.
+            </p>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">Live Demo</a>
+              <a href="#" class="btn btn-small btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-intro">
+            I'm currently available for freelance work and open to new opportunities.
+            Whether you have a project in mind or just want to say hi, my inbox is always open!
+          </p>
+          <div class="contact-links">
+            <a href="mailto:hello@evanelyh.dev" class="contact-link">
+              <span class="contact-link-icon">✉️</span>
+              <span>hello@evanelyh.dev</span>
+            </a>
+            <a href="https://github.com/Evanelyh" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <span class="contact-link-icon">🐙</span>
+              <span>github.com/Evanelyh</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" class="form-input form-textarea" placeholder="Your message..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        Designed &amp; Built by <strong>Evanelyh</strong>
+      </p>
+      <p class="footer-sub">
+        <a href="https://github.com/Evanelyh/portafolio-web." target="_blank" rel="noopener noreferrer">View Source on GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
